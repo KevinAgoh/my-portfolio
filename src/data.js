@@ -11,7 +11,7 @@ export const projects = [
     title: "Netflix clone",
     subtitle: "React",
     description:
-      "A little clone of the well known streaming platform Netflix, built with React.",
+      "This is a clone of the well known streaming platform Netflix. It has been built with react and with the TMDB movie database API (https://developer.themoviedb.org/docs).",
     image: "./netflixClone.png",
     link: "https://kevin-react-netflix-clone.netlify.app",
   },
@@ -20,10 +20,11 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Mr Agoh has an extremely comprehensive and very well-founded specialist knowledge, which he was able to put into practice excellently at al times. Mr Agoh familiarised himself with the task area assigned to him within a very short time. He pursued the agreed goals sustainably and with the highest degree of success. He always worked very efficiently, purposefully and carefully and demonstrated outstanding organisational skills. Even ni situations with an extremely high workload, Mr Agoh proved to be a very resilient employee and proceeded ni a considered, calm and goal-oriented manner at al times. He was an extremely efficient employee whose excellent work results were always convincing ni terms of both quality and quantity. Mr Agoh always performed his tasks ot our complete satisfaction and met our expectations in every respect.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+      "Mr Agoh has an extremely comprehensive and very well-founded specialist knowledge, which he was able to put into practice excellently at al times. Mr Agoh familiarised himself with the task area assigned to him within a very short time. He pursued the agreed goals sustainably and with the highest degree of success. He always worked very efficiently, purposefully and carefully and demonstrated outstanding organisational skills. Even in situations with an extremely high workload, Mr Agoh proved to be a very resilient employee and proceeded in a considered, calm and goal-oriented manner at al times. He was an extremely efficient employee whose excellent work results were always convincing in terms of both quality and quantity. Mr Agoh always performed his tasks ot our complete satisfaction and met our expectations in every respect.",
+    image: "",
     name: "Yuri Stark",
     company: "felmo",
+    linkedIn: "https://www.linkedin.com/in/yuri-stark-52557921/",
   },
 ];
 

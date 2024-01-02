@@ -17,15 +17,20 @@ export default function Testimonials() {
                 <TerminalIcon className="block w-8 text-gray-500 mb-4" />
                 <p className="leading-relaxed mb-6">{testimonial.quote}</p>
                 <div className="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src={testimonial.image}
-                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
-                  />
+                  {testimonial.image && (
+                    <img
+                      alt="testimonial"
+                      src={testimonial.image}
+                      className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                    />
+                  )}
                   <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
+                    <a
+                      href={testimonial.linkedIn}
+                      className="title-font font-medium text-white"
+                    >
                       {testimonial.name}
-                    </span>
+                    </a>
                     <span className="text-gray-500 text-sm uppercase">
                       {testimonial.company}
                     </span>
