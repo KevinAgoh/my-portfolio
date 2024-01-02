@@ -70,7 +70,10 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Want to have a chat ? Don't hesitate to reach out 😀
+            Want to have a chat ? Don't hesitate to reach out{" "}
+            <span role="img" aria-label="happy emoji">
+              😀
+            </span>
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
