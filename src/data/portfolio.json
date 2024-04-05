@@ -1,0 +1,24 @@
+{
+  "portfolio": [
+    {
+      "title": "felmo shop",
+      "description": "Statamic, React",
+      "cover": "/portfolio/1/felmoShop.png",
+      "url": " https://felmo.de/shop"
+    },
+    {
+      "title": "Netflix clone",
+      "subtitle": "React",
+      "description": "React",
+      "cover": "/portfolio/1/netflixClone.png",
+      "url": "https://kevin-react-netflix-clone.netlify.app"
+    },
+    {
+      "title": "E-commerce-app",
+      "subtitle": "Next.js, Tailwind",
+      "description": "Next.js, Tailwind",
+      "cover": "/portfolio/1/e-commerce-app.png",
+      "url": "https://ecommerce-app-kevin.vercel.app"
+    }
+  ]
+}

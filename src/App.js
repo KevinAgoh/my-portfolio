@@ -1,20 +1,24 @@
-import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+import { Route, Routes } from 'react-router-dom'
+import './App.scss'
+import About from './components/About'
+import Contact from './components/Contact'
+import Home from './components/Home'
+import Layout from './components/Layout'
+import Portfolio from './components/Portfolio'
 
-export default function App() {
+function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Contact />
-    </main>
-  );
-} 
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Route>
+      </Routes>
+    </>
+  )
+}
+
+export default App
