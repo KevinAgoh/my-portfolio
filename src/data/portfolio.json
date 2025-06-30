@@ -1,6 +1,19 @@
 {
   "portfolio": [
     {
+      "title": "Naera app",
+      "subtitle": "React",
+      "description": "React, FastAPI, AWS",
+      "cover": "/portfolio/1/naera-app-screenshot.png",
+      "url": "https://app.naera.ai"
+    },
+    {
+      "title": "Naera website",
+      "description": "Wix",
+      "cover": "/portfolio/1/naera-website.png",
+      "url": "https://www.naera.ai/"
+    },
+    {
       "title": "felmo shop",
       "description": "Statamic, React",
       "cover": "/portfolio/1/felmoShop.png",
