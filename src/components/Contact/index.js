@@ -93,7 +93,7 @@ const Contact = () => {
           <br />
           Germany,
           <br />
-          Ratiborstrasse, 10999 <br />
+          Kreuzberg, 10999 <br />
           Berlin <br />
           <br />
           <span>kevinagoh@hotmail.fr</span>
